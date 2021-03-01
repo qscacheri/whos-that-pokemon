@@ -1,0 +1,9 @@
+.pokemon-viewer {
+  width: 100%;
+}
+
+.pokemon-viewer::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
